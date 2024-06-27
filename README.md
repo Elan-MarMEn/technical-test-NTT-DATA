@@ -1,14 +1,14 @@
 # technical-test-NTT-DATA
 
-# Medidas para prevenir ataques de inyección SQL
+## Medidas para prevenir ataques de inyección SQL
 
 4. Utilizar cifrado SSL/TLS para proteger contra ataques SQL.
 
-# Diferencia entre autenticación y autorización en el contexto de una aplicación web
+## Diferencia entre autenticación y autorización en el contexto de una aplicación web
 
 2. La autenticación se refiere al proceso de verificar la identidad del usuario, mientras que la autorización determina qué acciones tiene permitido realizar un usuario autenticado.
 
-# Preguntas abiertas
+## Preguntas abiertas
 
 1. **Describe cómo diseñarías una arquitectura escalable para una aplicación web que espera un aumento significativo en el tráfico.**
    - Respuesta Abierta:
@@ -26,7 +26,7 @@
    Factory: Se trata de dividir la creacion de objetos o entidades que comparten atributos similares
    Comando: Se enfoca en separar por aciones un comportamiento definido sobre un objeto o entidad
 
-# Caso de uso
+## Caso de uso
 
 La aplicación de validación de horas trabajadas en la compañía NTTDATA presenta una falla recurrente:
 
