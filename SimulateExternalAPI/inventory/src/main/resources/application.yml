@@ -1,0 +1,19 @@
+server:
+  servlet:
+    context-path: /inventory/
+  port: 8081
+
+spring:
+  application:
+    name: inventory
+  datasource:
+    url: jdbc:mysql://localhost:3306/your_database_name
+    username: user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update  # Opciones: none, validate, update, create, create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
