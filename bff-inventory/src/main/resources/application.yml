@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /bff/inventory/
+  port: 8080
+
+spring:
+  application:
+    name: bff-inventory
